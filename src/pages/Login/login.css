@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-*{
-    font-family: 'Inter', sans-serif;
-}
-
 nav.bg {
     background: #FFC107;
 }
@@ -30,16 +25,10 @@ span.rentall {
 .input {
     background-color: #C4C4C4 !important;
 }
-a {
-    text-decoration: none !important;
-}
 .link:hover {
     color:#FFC107 !important;
 }
 .daftar:hover {
-    color: black !important;
-}
-.help:hover {
     color: black !important;
 }
 .button {

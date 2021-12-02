@@ -5,9 +5,6 @@ import './login.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-
-
-
 const Login = () => {
     return (
         <>
@@ -15,7 +12,7 @@ const Login = () => {
         <nav class="navbar navbar-light bg">
             <div class="container">
                 <div class="row">
-                    <span class="col rentall navbar-brand mb-0 h1" style={{color: "white", marginLeft: "50px"}}>RentAll</span>
+                    <span class="col rentall navbar-brand mb-0 h1" style={{marginLeft: "50px"}}><a href="/" class="help" style={{color: "white"}}>RentAll</a></span>
                     <span class="col" style={{color: "white", fontSize:"45px", marginTop: "6px"}}>|</span>
                     <span class="col" style={{color: "white", fontSize: "36px", marginTop: "12px"}}>Login</span>
                 </div>
@@ -31,7 +28,7 @@ const Login = () => {
                     <div class="row">
                         <span class="col"></span>
                         <span class="col-6"></span>
-                        <span class="col" style={{fontSize: "15px"}}><a href="#" class="daftar" style={{color: "#FFC107"}}>Daftar</a></span>
+                        <span class="col" style={{fontSize: "15px"}}><a href="/register" class="daftar" style={{color: "#FFC107"}}>Daftar</a></span>
                     </div>
                     <div class="mb-3 form">
                         <Form style={{fontSize: "20px"}}>
