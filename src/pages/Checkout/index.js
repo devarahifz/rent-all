@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Container, Row, Form,Button } from 'react-bootstrap'
-import './checkout.css'
 import user from '../../assets/user.jpg'
 
 const Checkout = () => {
