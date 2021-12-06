@@ -4,6 +4,7 @@ import { Footer, Header } from '../../components'
 import Profile from '../Profile';
 import Home from '../Home';
 import "./mainApp.css"
+import { Cart, Checkout } from '..';
 
 const MainApp = () => {
     return (
@@ -14,6 +15,12 @@ const MainApp = () => {
                     <Switch>
                         <Route path="/profile">
                             <Profile />
+                        </Route>
+                        <Route path="/cart">
+                            <Cart />
+                        </Route>
+                        <Route path="/checkout">
+                            <Checkout />
                         </Route>
                         <Route path="/">
                             <Home />
